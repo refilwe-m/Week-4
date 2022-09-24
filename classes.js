@@ -4,7 +4,7 @@ class Node {
     this.next = null;
   }
 }
-//head->3->1->null
+
 node = { value: 4, next: {} };
 class LinkedList {
   constructor(value) {
@@ -35,5 +35,6 @@ class LinkedList {
 }
 
 const ll = new LinkedList(4);
-ll.push(3);
+ll.push(3); //{value:3,next:null}
 console.table(ll);
+let linkedlist = { value: 4, next: { value: 3, next: null } };
